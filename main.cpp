@@ -1,8 +1,19 @@
 #include <iostream>
+#include <string>
 
 using namespace sdt;
 
+void pint_str(string str);
+
 int main()
 {
-    cout << "Hello world!\n";
+    print("Hello, World!");
+    cout << '\n';
+
+    return 0;
+}
+
+void pint_str(string str)
+{
+    cout << str;
 }
